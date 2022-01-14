@@ -1,0 +1,68 @@
+/* common CSS  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #E5E5E5;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #562EFF;
+    color:#FFFFFF;
+ 
+    height: 94px;
+    padding-left: 285px;
+    padding-right: 289px;
+}
+nav a{
+    text-decoration: none;
+    padding-left: 1em;
+    color:#FFFFFF;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.idea img{
+width: 40.42px;
+height: 51px;
+}
+img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    padding-left: 28px;
+}
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+    grid-gap:30px;
+
+   
+}
+.top-container{
+      background-color: #FFFFFF;
+          border-radius: 5px;
+          height: 679px;
+          width: 870px;
+    
+}
+    main{
+          padding: 0px 285px 0px 285px;
+    }
+    
+.player h4{
+    padding-left: 16px;
+}
+.top-players h2{
+    padding: 33px 0 40px 33px;
+}
+hr{
+    width: 807px;
+    border: 1px solid #D1D1D1;
+}
